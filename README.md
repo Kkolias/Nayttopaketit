@@ -9,10 +9,10 @@
 -- Mahdollisesti näytön sijainti kartalla
 
 - Ostoskori 
--- Lisää näyttö ostoskoriin -toiminto 
--- Poista näyttö ostoskorista -toiminto 
+-- Lisää näyttö ostoskoriin -toiminto                           x
+-- Poista näyttö ostoskorista -toiminto                         x
 -- Tallenna ostoskori paketiksi -toiminto 
--- Kokonaishinta
+-- Kokonaishinta                                                x
 
 - Tallennettujen pakettien selaus ja hallinta 
 -- Haku -toiminto 

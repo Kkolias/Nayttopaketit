@@ -31,7 +31,7 @@ export default function Navbar(props) {
 
   return (
     <div className='navbar-container'>
-        <input className='search-field' placeholder='Search...' onChange={handleChange}></input>
+        <input className='search-field' placeholder='Etsi kohteita...' onChange={handleChange}></input>
         <div className='filters'>
             <div className='sort-select-container'>
                 <select name='sort' className='sort-select' onChange={handleSort}>
@@ -40,8 +40,7 @@ export default function Navbar(props) {
                     <option value="priceHigh">Hinta kallein</option>
                     <option value="nameAsc">Nimi</option>   
                 </select>
-            </div>
-            
+            </div> 
         </div>
     </div>
   )
