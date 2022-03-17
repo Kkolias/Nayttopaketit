@@ -1,38 +1,66 @@
 .App {
   text-align: center;
+  background-color: #efefef;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.products-full-container {
+  width: 50%;
+  height: auto;
+  
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 400px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.product-container {
+  /* border: 2px solid grey; */
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+
+  box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.75),-4px -4px 5px 0px rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.75), -4px -4px 5px 0px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.75), -4px -4px 5px 0px rgba(255, 255, 255, 1);
+  /* box-shadow: -2px -2px 5px 0px rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: -2px -2px 5px 0px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: -2px -2px 5px 0px rgba(255, 255, 255, 0.75); */
+}
+.product-container:hover {
+  box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75),-6px -6px 5px 0px rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75), -6px -6px 5px 0px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75), -6px -6px 5px 0px rgba(255, 255, 255, 1);
+}
+.product-name-and-address {
+  text-align: left;
+  margin-left: 10px;
+  width: auto;
+}
+.product-name-and-address h3 {
+  font-size: 17px;
+  margin-top: 5px;
+  line-height: 20px;
+}
+.product-name-and-address p {
+  
+  line-height:10px;
 }
 
-.App-link {
-  color: #61dafb;
+.image-container {
+  overflow: hidden;
+  height: 170px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.image-container img {
+  width: 300px;
+}
+.price {
+  width: 100%;
+  
+  transform: translateX(50px);
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
 }

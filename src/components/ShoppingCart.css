@@ -1,0 +1,12 @@
+.shopping-cart-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 100%;
+    background-color: #efefef;
+    z-index: 3;
+    box-shadow: -4px -4px 4px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -4px -4px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow:-4px -4px 4px 0px rgba(0,0,0,0.75);
+}

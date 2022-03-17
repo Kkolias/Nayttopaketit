@@ -1,0 +1,36 @@
+.navbar-container {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 300px;
+    width: 50%;
+    border-radius: 10px;
+    border: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.search-field {
+    width: 250px;
+    height: 30px;
+    align-self: center;
+}
+.filters {
+    border: 2px solid grey;
+    width: 400px;
+    height: 150px;
+    align-self: center;
+}
+/* .sort-select-container {
+
+} */
+.sort-select {
+    width: 150px;
+    height: 30px;
+    border: 2px solid grey;
+    background-color: #ffff;
+    border-radius: 5px;
+    font-size: 15px;
+}
