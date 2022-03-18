@@ -7,7 +7,7 @@ export default function Navbar(props) {
         props.setSearchTerm(e.target.value)
     }
     const handleSort = (e) => {
-
+        // Järjestäminen esim hinnan tai nimen perusteella
         switch(e.target.value) {
             case "priceLow":
                 props.setResData(

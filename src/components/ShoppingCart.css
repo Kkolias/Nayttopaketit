@@ -37,6 +37,7 @@
     height: 80%;
     margin: auto;
     overflow: scroll;
+    overflow-x: hidden;
 }
 .added-product-container {
   border-radius: 10px;
@@ -61,7 +62,8 @@
     font-weight: 600;
 }
 .added {
-    margin-left: 40px;
+    margin-left: 20px;
+    
 }
 .remove-product {
     margin-top: 5px;
